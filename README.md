@@ -1,3 +1,6 @@
+![Screenshot (7)](https://github.com/harshshukla1213/Otp-Verification/assets/131170802/2dcb8569-2ab1-4044-9100-715c5a43e023)
+![Screenshot (5)](https://github.com/harshshukla1213/Otp-Verification/assets/131170802/7829febd-4449-44f6-911a-ad66f83979b3)
+![Screenshot (4)](https://github.com/harshshukla1213/Otp-Verification/assets/131170802/3bc561b9-9639-47f8-8bd3-637394eaa254)
 # images in code 
  
 
