@@ -1,38 +1,123 @@
-.App {
+.logo{
+ 
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: block;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  margin: auto;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.text{
+align-items: center;
+text-align:center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+ .phone {
+/* color:#4400ff;
+width:10px; */
+
+
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 320px;
+
+}  
+
+.msg{
+text-align:center;
+}
+
+.btn{
+
+/* padding: 30px; */
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+
+}
+.inbtn{
+align-items:center;
+height:50px;
+width:300px;
+border-radius: 30px;
+
+font-size: 40px;
+
+background: blue;
+}
+
+.inbtn:hover{
+
+  cursor:pointer;
+}
+
+
+
+.logo1{
+  text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  
+ .txt{
+  
+  
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 320px;
+
+} 
+  /* .iinpu{
+    color:#4400ff;
+width:10px; */
+
+/* 
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 420px;
+  } */
+
+
+  .div2{
+      align-items: center;
+  text-align:center;
+
   }
+
+  .btn3{
+
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100px;
+
+    color: burlywood;
+  }
+@media only screen and (min-width: 480px) {
+/* styles for devices with a minimum screen width of 480px */
+
+}
+
+@media only screen and (max-width: 480px) {
+
+/* styles for devices with a maximum screen width of 480px */
+
 }

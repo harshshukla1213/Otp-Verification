@@ -1,24 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+// import './Verify.css'
+
+import React from 'react'
+import { useState } from "react";
+import ReactDOM from 'react-dom/client'
+import { BrowserRouter, Routes, Route, useNavigate, Link } from "react-router-dom";
+
+import './App.css'
+// import './'
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
+import VerifyOtpPage from './Verifiyotp';
+import Page1 from './getOtp';
+import SuccessPage from './success';
+
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Page1 />} />
+        <Route path="/verify" element={<VerifyOtpPage />} />
+        <Route path='/success' element={<SuccessPage/>}/>
+      </Routes>
+    </BrowserRouter>
+
   );
 }
 
